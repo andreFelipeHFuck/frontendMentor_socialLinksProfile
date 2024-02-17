@@ -6,10 +6,13 @@
     padding: 1em 6em;
 }
 
-.lista-links__item:hover{
-    background-color: var(--green);
+@media screen and (min-width: 1024px){
+    .lista-links__item:hover{
+        background-color: var(--green);
+    }
+    
+    .lista-links__item:hover .lista-links__link{
+        color: var(--grey);
+    }
 }
 
-.lista-links__item:hover .lista-links__link{
-    color: var(--grey);
-}
