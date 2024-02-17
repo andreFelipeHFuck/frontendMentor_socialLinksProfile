@@ -1,0 +1,5 @@
+.lista-links__link{
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+}

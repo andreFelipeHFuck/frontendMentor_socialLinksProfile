@@ -1,0 +1,10 @@
+.people-image{
+    background-image: url(../images/avatar-andre.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    margin: 1.5em 0 2em 0;
+    height: 120px;
+    width: 120px;
+}

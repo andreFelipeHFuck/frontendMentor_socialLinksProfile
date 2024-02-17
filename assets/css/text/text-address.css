@@ -1,0 +1,5 @@
+.text__address{
+    color: var(--green);
+    font-weight: 600;
+    margin: 0.5em 0 1.5em 0;
+}

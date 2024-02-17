@@ -1,0 +1,38 @@
+@import url(./card.css);
+
+@import url(./people-image.css);
+
+@import url(./text/text.css);
+@import url(./text/text-name.css);
+@import url(./text/text-address.css);
+@import url(./text/text-information.css);
+
+@import url(./lista-links/listaLinks.css);
+@import url(./lista-links/listaLinks-item.css);
+@import url(./lista-links/listaLinks-link.css);
+
+@font-face {
+    font-family: Inter;
+    src: local(Inter), url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+:root{
+    /* Primary */
+    --green: hsl(75, 94%, 57%);
+
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+
+    /* Font */
+    --main-font: "Inter"
+}
+
+body{
+    background-color: var(--off-black);
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -1,0 +1,15 @@
+.lista-links__item{
+    background-color: var(--grey);
+    border-radius: 7px;
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 1em 6em;
+}
+
+.lista-links__item:hover{
+    background-color: var(--green);
+}
+
+.lista-links__item:hover .lista-links__link{
+    color: var(--grey);
+}
